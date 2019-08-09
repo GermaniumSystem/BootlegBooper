@@ -82,7 +82,7 @@ The Bootleg Booper needs to connect to the SAO connector, but the connector woul
 The pins on my fancy connector aren't long enough. They mate for a fraction of a millimeter, and will stay in place, but a slight jostle will cause it to pop out. I made a trip to Microcenter the night before I flew out and bought a few hundred male-to-male jumpers. The jumpers fit great!
 
 #### The SAO hole isn't big enough.
-It WAS big enough when I used the correct measurements... but then I had a terribly case of The Dumb and made it 2mm *smaller* instead of *larger*. So, I bought a hand file the night before flying out. Each board needs to be clearanced with this file, but it looks surprisingly ok.
+It WAS big enough when I used the correct measurements... but then I had a terrible case of The Dumb and made it 2mm *smaller* instead of *larger*. So, I bought a hand file the night before flying out. Each board needs to be clearanced with this file, but it looks surprisingly ok.
 
 ### Timeline
 | Date | Event | Stress level |
