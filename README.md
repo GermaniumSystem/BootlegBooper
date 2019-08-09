@@ -9,6 +9,10 @@ This bootleg overlay also features two GPIO items: a buzzer and a switch.
 
 Will it fit? Will it look like shit? Who knows!
 
+## It works!
+
+![IT WORKS](img/itworks.jpg)
+
 
 ## Assembly
 
