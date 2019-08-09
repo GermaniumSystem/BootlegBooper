@@ -16,14 +16,18 @@ Will it fit? Will it look like shit? Who knows!
 
 ## Assembly
 
+Assembly is only required if you wish to use the SAO header.
+
+Note that the cut-out for the host SAO header may be too tight. I can file the cut-out to make it fit, just find me. The same goes for spare parts. Twitter @ExtantBogon is probably the best way of reaching me.
+
 #### Included components
 - PCB.
 - 6 pin ribbon cable.
 - Unobtanium SAO v1.69bis connector.
 - Piezo buzzer.
-- 10 MOhm resistor.
+- 10 KOhm resistor.
 - Switch.
-- A ziptie.
+- 2 zipties.
 
 The buzzer, resistor, and switch may be omitted. The GPIO pins were not implemented on the badge, so these will not function.
 
@@ -67,6 +71,9 @@ The GPIO CAN work though! IF an SAO interacts with the GPIO pins. A good example
 
 #### I couldn't determine the hole size.
 All I could make out from the low-res teasers was that the mounting holes were somewhere between 2mm and 3.5mm. I just spec'd the holes at 3.7 and hoped for the best.
+
+#### I didn't know the default state of the GPIO pins.
+The buzzer expects GPIO to sink to activate it. If the badge sinks by default, the buzzer will always be on.... So, I added a solder bridge for both GPIO items. It's disconnected by default, but can be easily joined during assembly once I know if they'll work. It turns out that the badge doesn't use GPIO, but these are still useful if an SAO is doing weird things with those pins.
 
 #### The SAO connector is at a weird height.
 The Bootleg Booper needs to connect to the SAO connector, but the connector wouldn't fit board-to-board. To get around this, I opted to use a ribbon cable with a male connector on one end and raw soldered connections on the other.
